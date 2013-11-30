@@ -1,0 +1,33 @@
+{
+    "name": "rolab/odata-serializer",
+    "type": "library",
+    "description": "Library for (de)-serializing data to and from OData messages.",
+    "keywords": ["odata", "serialization", "deserialization", "jsonverbose", "atom"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland S Schermer",
+            "email": "roland0507@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "jms/serializer": "0.13.*",
+        "rolab/entity-data-model": "0.1.*"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-0": {
+            "Rolab\\ODataSerializer": ""
+        }
+    },
+    "target-dir": "Rolab/EntityDataModel",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.settings
+vendor
+composer.lock
+composer.phar*.class
+.project
+*.pyc
+*.pyo
+*.class
+*.pyc
+*.pyo
